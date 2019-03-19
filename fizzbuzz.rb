@@ -1,12 +1,12 @@
-def fizzbuzz(int)
-  if int % 3 == 0 and int % 5 == 0
-    return "FizzBuzz"
-  elsif int % 5 == 0
-    return "Buzz"
-  elsif int %/ 3 == 0
-    return  "Fizz"
-
-  end
-
+puts('Lets play fizzbuzz')
+print('enter a number: ')
+number = gets()
+puts(number)
+if number == % 3
+  puts ('fizz')
+elsif number == % 5
+  puts ('buzz')
+elsif number == %15
+  puts ('fizzbuzz')
 end
        
