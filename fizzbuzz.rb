@@ -1,12 +1,10 @@
-puts('Lets play fizzbuzz')
-print('enter a number: ')
-number = gets()
-puts(number)
-if number == % 3
-  puts ('fizz')
-elsif number == % 5
-  puts ('buzz')
-elsif number == %15
-  puts ('fizzbuzz')
+def fizzbuzz(value)
+  if value % 3 == 0 && value % 5 == 0
+    "FizzBuzz"
+  elsif value % 3 == 0
+    "Fizz"
+  elsif value % 5 == 0
+    "Buzz"
+  end
 end
-       
+fizzbuzz(3) 
